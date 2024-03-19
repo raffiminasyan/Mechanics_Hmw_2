@@ -1,0 +1,41 @@
+First case Masses:
+M1 = 5 kg
+M2 = 10 kg
+M3 = 15 kg
+Initial Velocities:
+u1 = u2 = u3 = 0 m/s (equal initial velocities)
+Rope Length (L): 10 meters
+Time Step (dt): 0.01 seconds
+In this situation, when we had different masses for M1, M2, and M3 but they all started with the same speed of 0 meters per second, 
+we noticed that they moved in a steady, straight line without speeding up or slowing down. Each body moved predictably without any changes in its motion.
+Also, the maximal distance D that M1 moved from its original position was determined to be 0.0 meters.
+
+Second Case Masses
+M1 = 3  kg
+M2 = 8 kg
+M3 = 12 kg
+Initial Velocities:
+u1 = 2 u2 = 0   u3= -1 m/s 
+Rope Length (L): 8 meters
+Time Step (dt): 0.05 seconds
+
+In this situation we have three bodies with different masses and initial velocities. where M1 is the lightest, 
+M3 is the heaviest, and M2 is in between. The initial velocities are unequal, with M1 moving faster, M3 moving slower,
+and M2 initially at rest. Also, the maximal distance D that M1 moved from its original position was determined to be 0.09869565217391305 meters.
+
+
+*Third Case
+Second Case Masses
+M1 = 5  kg
+M2 = 5 kg
+M3 = 5 kg
+Initial Velocities:
+u1 = 0.5 u2 = 0.5   u3= 0.5 m/s (equal initial velocities)
+Rope Length (L): 10 meters
+Time Step (dt): 0.1 seconds
+In this scenario, all three objects have the same mass of 5 kg each, 
+and they begin with identical velocities of 0.5 m/s. The rope connecting them has a length of 10 meters, and calculations 
+are performed using a time step of 0.1 seconds. Due to the friction and equal masses, the movement of all objects is  slow. 
+In this case, the middle object (M2) swings back and forth because of how the pulley changes direction. At the same time, the bottom object (M3) moves downward 
+steadily because of gravity and friction. Even though they all start at the same speed, they move slowly overall. 
+Object M1 ends up traveling about 1.6772377372469316 meters away from where it started.

@@ -39,3 +39,7 @@ are performed using a time step of 0.1 seconds. Due to the friction and equal ma
 In this case, the middle object (M2) swings back and forth because of how the pulley changes direction. At the same time, the bottom object (M3) moves downward 
 steadily because of gravity and friction. Even though they all start at the same speed, they move slowly overall. 
 Object M1 ends up traveling about 1.6772377372469316 meters away from where it started.
+
+
+// The main idea of the code implementation was taken from the internet by looking some peoples works in the internet and with some help of ChatGpt,
+the main implementation and cases written by me.
